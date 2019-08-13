@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Results-->
         <scene sceneID="okK-db-AY1">
             <objects>
                 <tableViewController id="kt5-z3-x2H" customClass="AllResultsTableViewController" customModule="ReaderQR" customModuleProvider="target" sceneMemberID="viewController">
@@ -26,19 +26,14 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="kZM-qw-QPp">
-                                            <rect key="frame" x="40" y="12" width="374" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="kZM-qw-QPp">
+                                            <rect key="frame" x="30" y="12" width="369" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <constraints>
-                                        <constraint firstItem="kZM-qw-QPp" firstAttribute="top" secondItem="nEB-py-GsX" secondAttribute="topMargin" constant="1" id="IE4-FN-3nO"/>
-                                        <constraint firstItem="kZM-qw-QPp" firstAttribute="bottom" secondItem="nEB-py-GsX" secondAttribute="bottomMargin" id="N4b-gK-TrF"/>
-                                        <constraint firstItem="kZM-qw-QPp" firstAttribute="trailing" secondItem="nEB-py-GsX" secondAttribute="trailingMargin" constant="20" id="Rsd-8b-6Lm"/>
-                                        <constraint firstItem="kZM-qw-QPp" firstAttribute="leading" secondItem="nEB-py-GsX" secondAttribute="leadingMargin" constant="20" id="iwT-tw-Ooa"/>
-                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="resultLabel" destination="kZM-qw-QPp" id="1ed-Sy-HF4"/>
@@ -50,14 +45,14 @@
                             <outlet property="delegate" destination="kt5-z3-x2H" id="qHr-js-lc9"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="vO3-Hb-RoF"/>
+                    <tabBarItem key="tabBarItem" title="Results" id="vO3-Hb-RoF"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sAb-Ty-WCw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="763.768115942029" y="249.77678571428569"/>
         </scene>
-        <!--Item 1-->
+        <!--Scan&Result-->
         <scene sceneID="08A-bf-NKb">
             <objects>
                 <viewController id="v59-cP-gEc" customClass="ScanResultViewController" customModule="ReaderQR" customModuleProvider="target" sceneMemberID="viewController">
@@ -91,7 +86,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="UKG-cb-lss"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="ULy-Qs-GVf"/>
+                    <tabBarItem key="tabBarItem" title="Scan&amp;Result" id="ULy-Qs-GVf"/>
                     <connections>
                         <outlet property="resultLabel" destination="xYQ-B0-Les" id="QzA-Vl-6wY"/>
                     </connections>

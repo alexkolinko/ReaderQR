@@ -13,15 +13,15 @@ class RealmManager {
     
     let realm = try? Realm()
     
-    func saveObject(objs: Object) {
+    func saveObject(obj: Object) {
         try? realm!.write {
-            realm?.add(objs)
+            realm?.add(obj)
         }
     }
     
-    func deleteObject(objs : Object) {
+    func deleteObject(obj: Object) {
         try? realm!.write {
-            realm?.delete(objs)
+            realm?.delete(obj)
         }
     }
 }

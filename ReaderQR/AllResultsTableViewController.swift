@@ -41,6 +41,16 @@ class AllResultsTableViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+        let editRow = resultsData[indexPath.row]
+        let deleteAction = UITableViewRowAction(style: .default, title: "Delete") { (_, _) in
+            self.realmManager.deleteObject(obj: editRow)
+            tableView.reloadData()
+        }
+        return [deleteAction]
+    }
+    
+    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let result = resultsData[indexPath.row]
         launchApp(decodedURL: result.data)
