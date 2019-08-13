@@ -3,25 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B16CC2B22FC456E004069D6 /* DataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B16CC2A22FC456E004069D6 /* DataList.swift */; };
+		4B16CC2D22FC4C80004069D6 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B16CC2C22FC4C80004069D6 /* RealmManager.swift */; };
+		4B16CC2F22FC627D004069D6 /* AllResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B16CC2E22FC627D004069D6 /* AllResultsTableViewController.swift */; };
+		4B3621C623029E9D008AE36D /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3621C523029E9D008AE36D /* ResultTableViewCell.swift */; };
 		4BB2B54722FBF8B900AB5BBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2B54622FBF8B900AB5BBC /* AppDelegate.swift */; };
-		4BB2B54922FBF8B900AB5BBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2B54822FBF8B900AB5BBC /* ViewController.swift */; };
 		4BB2B54C22FBF8B900AB5BBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB2B54A22FBF8B900AB5BBC /* Main.storyboard */; };
 		4BB2B54E22FBF8BC00AB5BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB2B54D22FBF8BC00AB5BBC /* Assets.xcassets */; };
 		4BB2B55122FBF8BC00AB5BBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB2B54F22FBF8BC00AB5BBC /* LaunchScreen.storyboard */; };
+		4BB2B55C22FC1EE200AB5BBC /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2B55B22FC1EE200AB5BBC /* TabBarController.swift */; };
+		4BB2B55E22FC255100AB5BBC /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2B55D22FC255100AB5BBC /* ScannerViewController.swift */; };
+		4BB2B56022FC271900AB5BBC /* ScanResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2B55F22FC271900AB5BBC /* ScanResultViewController.swift */; };
+		D3EDB6C5260E32EEA0573366 /* Pods_ReaderQR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C769AE7AD8A1B42E8ECB06DC /* Pods_ReaderQR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B16CC2A22FC456E004069D6 /* DataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataList.swift; sourceTree = "<group>"; };
+		4B16CC2C22FC4C80004069D6 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		4B16CC2E22FC627D004069D6 /* AllResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllResultsTableViewController.swift; sourceTree = "<group>"; };
+		4B3621C523029E9D008AE36D /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
 		4BB2B54322FBF8B900AB5BBC /* ReaderQR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReaderQR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BB2B54622FBF8B900AB5BBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4BB2B54822FBF8B900AB5BBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4BB2B54B22FBF8B900AB5BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BB2B54D22FBF8BC00AB5BBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BB2B55022FBF8BC00AB5BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BB2B55222FBF8BC00AB5BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB2B55822FC0EBC00AB5BBC /* ReaderQR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReaderQR.entitlements; sourceTree = "<group>"; };
+		4BB2B55B22FC1EE200AB5BBC /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4BB2B55D22FC255100AB5BBC /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		4BB2B55F22FC271900AB5BBC /* ScanResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanResultViewController.swift; sourceTree = "<group>"; };
+		59855257B7A26BE6C590B7EE /* Pods-ReaderQR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReaderQR.release.xcconfig"; path = "Target Support Files/Pods-ReaderQR/Pods-ReaderQR.release.xcconfig"; sourceTree = "<group>"; };
+		9C92BB0D60D1C8E8B5981279 /* Pods-ReaderQR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReaderQR.debug.xcconfig"; path = "Target Support Files/Pods-ReaderQR/Pods-ReaderQR.debug.xcconfig"; sourceTree = "<group>"; };
+		C769AE7AD8A1B42E8ECB06DC /* Pods_ReaderQR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReaderQR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +46,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3EDB6C5260E32EEA0573366 /* Pods_ReaderQR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1249CE797F9A9F76B0AAF820 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C769AE7AD8A1B42E8ECB06DC /* Pods_ReaderQR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B3621C323029E18008AE36D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4BB2B55F22FC271900AB5BBC /* ScanResultViewController.swift */,
+				4BB2B55D22FC255100AB5BBC /* ScannerViewController.swift */,
+				4B16CC2E22FC627D004069D6 /* AllResultsTableViewController.swift */,
+				4BB2B55B22FC1EE200AB5BBC /* TabBarController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4B3621C423029E6B008AE36D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B3621C523029E9D008AE36D /* ResultTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4B3621C72302A166008AE36D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B16CC2A22FC456E004069D6 /* DataList.swift */,
+				4B16CC2C22FC4C80004069D6 /* RealmManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		4BB2B53A22FBF8B900AB5BBC = {
 			isa = PBXGroup;
 			children = (
 				4BB2B54522FBF8B900AB5BBC /* ReaderQR */,
 				4BB2B54422FBF8B900AB5BBC /* Products */,
+				AEF1B610533E28B938C8295E /* Pods */,
+				1249CE797F9A9F76B0AAF820 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +110,26 @@
 		4BB2B54522FBF8B900AB5BBC /* ReaderQR */ = {
 			isa = PBXGroup;
 			children = (
+				4BB2B55822FC0EBC00AB5BBC /* ReaderQR.entitlements */,
 				4BB2B54622FBF8B900AB5BBC /* AppDelegate.swift */,
-				4BB2B54822FBF8B900AB5BBC /* ViewController.swift */,
+				4B3621C323029E18008AE36D /* Controller */,
+				4B3621C423029E6B008AE36D /* View */,
+				4B3621C72302A166008AE36D /* Model */,
 				4BB2B54A22FBF8B900AB5BBC /* Main.storyboard */,
 				4BB2B54D22FBF8BC00AB5BBC /* Assets.xcassets */,
 				4BB2B54F22FBF8BC00AB5BBC /* LaunchScreen.storyboard */,
 				4BB2B55222FBF8BC00AB5BBC /* Info.plist */,
 			);
 			path = ReaderQR;
+			sourceTree = "<group>";
+		};
+		AEF1B610533E28B938C8295E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C92BB0D60D1C8E8B5981279 /* Pods-ReaderQR.debug.xcconfig */,
+				59855257B7A26BE6C590B7EE /* Pods-ReaderQR.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BB2B55522FBF8BC00AB5BBC /* Build configuration list for PBXNativeTarget "ReaderQR" */;
 			buildPhases = (
+				DB1A909C6A1AA4294F8D6846 /* [CP] Check Pods Manifest.lock */,
 				4BB2B53F22FBF8B900AB5BBC /* Sources */,
 				4BB2B54022FBF8B900AB5BBC /* Frameworks */,
 				4BB2B54122FBF8B900AB5BBC /* Resources */,
+				39CB58D003D1A73C78310915 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +166,11 @@
 				TargetAttributes = {
 					4BB2B54222FBF8B900AB5BBC = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -130,13 +205,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39CB58D003D1A73C78310915 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReaderQR/Pods-ReaderQR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReaderQR/Pods-ReaderQR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReaderQR/Pods-ReaderQR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB1A909C6A1AA4294F8D6846 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReaderQR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4BB2B53F22FBF8B900AB5BBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BB2B54922FBF8B900AB5BBC /* ViewController.swift in Sources */,
+				4BB2B56022FC271900AB5BBC /* ScanResultViewController.swift in Sources */,
+				4B16CC2D22FC4C80004069D6 /* RealmManager.swift in Sources */,
 				4BB2B54722FBF8B900AB5BBC /* AppDelegate.swift in Sources */,
+				4B16CC2B22FC456E004069D6 /* DataList.swift in Sources */,
+				4B16CC2F22FC627D004069D6 /* AllResultsTableViewController.swift in Sources */,
+				4BB2B55E22FC255100AB5BBC /* ScannerViewController.swift in Sources */,
+				4BB2B55C22FC1EE200AB5BBC /* TabBarController.swift in Sources */,
+				4B3621C623029E9D008AE36D /* ResultTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +403,10 @@
 		};
 		4BB2B55622FBF8BC00AB5BBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C92BB0D60D1C8E8B5981279 /* Pods-ReaderQR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ReaderQR/ReaderQR.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8X375UDGCY;
 				INFOPLIST_FILE = ReaderQR/Info.plist;
@@ -298,8 +423,10 @@
 		};
 		4BB2B55722FBF8BC00AB5BBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59855257B7A26BE6C590B7EE /* Pods-ReaderQR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ReaderQR/ReaderQR.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8X375UDGCY;
 				INFOPLIST_FILE = ReaderQR/Info.plist;
